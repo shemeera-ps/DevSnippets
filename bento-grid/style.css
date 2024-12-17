@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(249, 249, 249);
+}
+main{
+   display: grid;
+   /* grid-auto-flow: column; */
+   grid-template-columns: repeat(3,1fr 2fr 1fr);
+
+}
